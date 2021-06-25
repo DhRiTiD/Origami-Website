@@ -1,0 +1,48 @@
+h1{
+    color: whitesmoke;
+    border: 20px solid rgb(253, 129, 191) ;
+    border-radius: 50px;
+    background-color :  rgba(253, 66, 122, 0.863);
+    padding: 50px;
+    font: 4.3em 'Showcard Gothic';
+    text-align: center;
+    width: 900px;
+}
+p{
+    color: rgb(0, 16, 247);
+    /** background-color :  rgba(37, 157, 255, 0.897); */
+    padding: 2.5px;  
+    font-size:large;  
+    font-style: oblique;           
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.item{
+    color: white;
+    border : 5px solid whitesmoke;
+    border-radius: 50px;
+    width : 500px;
+    padding: 2.8px;
+}
+#grad1 {
+    height: 1000px;
+    background-image: linear-gradient( lightpink, pink,violet,rgb(255, 25, 186), rgb(255, 25, 186),violet, pink, lightpink);
+}
+.grid{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
